@@ -1,0 +1,39 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.navbar-brand span{
+  font-weight: 900;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+.dropdown-item:hover{
+  background-color: #d39e00;
+  color: white !important;
+}
+
+.dropdown-item{
+  color: white;
+}
+
+@media (min-width: 768px){
+  .barra{
+    background-color: transparent !important;
+  }
+  .header{
+    position: relative;
+  }
+  .barra{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+  }
+}

@@ -24,6 +24,55 @@ body{
   color: white;
 }
 
+.contacto{
+  background-image: url('../img/contacto.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 476px;
+}
+
+.contacto h1{
+  font-weight: 900;
+}
+
+.meta span{
+  color: #d39e00;
+}
+
+.entradas h4::after{
+  content: '';
+  display: block;
+  width: 30%;
+  height: 3px;
+  background-color: #28a745;
+  margin-top: 10px;
+  border-radius: 50px;
+}
+
+.testimoniales{
+  background-color: #28a745;
+  color: white;
+}
+
+.testimoniales .testimonial::before{
+  content: open-quote;
+  font-size: 4rem;
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.testimoniales .testimonial{
+  padding-left: 2.3rem;
+  padding-top: 1rem;
+}
+
+.footer .copyright{
+  color: white;
+}
+
 @media (min-width: 768px){
   .barra{
     background-color: transparent !important;
